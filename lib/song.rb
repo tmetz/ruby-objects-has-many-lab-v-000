@@ -1,7 +1,7 @@
 class Song
   @@all = []
   attr_reader :name
-  attr_writer :artist
+  attr_accessor :artist
 
   def initialize(song_name)
     name = song_name
